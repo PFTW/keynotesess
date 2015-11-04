@@ -1,0 +1,23 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Keynote": 5
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Keynote": {
+      "1": "{\"title\":\"Anti-Trust Reform\",\"presenter\":\"Susan Grier\",\"room\":\"404\",\"id\":1}",
+      "2": "{\"title\":\"Legal Knowledge Base Design\",\"presenter\":\"David Raymond\",\"room\":\"503\",\"id\":2}",
+      "3": "{\"title\":\"Patent Review Due Diligence\",\"presenter\":\"Blair Hollis\",\"room\":\"4703\",\"id\":3}",
+      "4": "{\"title\":\"Lease Negotiation\",\"presenter\":\"Mary Jo White\",\"room\":\"817\",\"id\":4}"
+    }
+  }
+}

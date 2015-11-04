@@ -1,0 +1,22 @@
+<h1>Law Circuit 2015 Keynote List</h1>
+<hr>
+<form name="keynoteForm" novalidate ng-submit="addTodo()">
+ <div
+     ng-class="{'has-error': keynoteForm.content.$invalid && keynoteForm.content.$dirty}">
+   <input type="text" name="content"
+       placeholder="Content" autocomplete="off" required
+       ng-model="newKeynote.content">
+   <span ng-show="
+       keynoteForm.content.$invalid && keynoteForm.content.$dirty">
+     Content is required.
+   </span>
+ </div>
+ <button ng-disabled="keynoteForm.$invalid">Add</button>
+</form>
+<hr>
+<div>
+ <a ng-repeat="keynote in keynotes">{{keynote.title}}&nbsp;
+   <i
+       ng-click="removeKeynote(keynote)"></i></a>
+</div>
+
