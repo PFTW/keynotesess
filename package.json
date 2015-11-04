@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
-    "pretest": "jshint ."
-  }, "scripts": {
+    "pretest": "jshint .",
     "start": "server/server.js"
   },
   "dependencies": {
