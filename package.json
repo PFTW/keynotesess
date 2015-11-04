@@ -4,6 +4,8 @@
   "main": "server/server.js",
   "scripts": {
     "pretest": "jshint ."
+  }, "scripts": {
+    "start": "server/server.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -22,4 +24,7 @@
     "url": ""
   },
   "description": "keynote-loop"
-}
+},
+"engines": {
+    "node": "4.x.x"
+  }
