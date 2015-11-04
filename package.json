@@ -22,8 +22,8 @@
     "type": "",
     "url": ""
   },
-  "description": "keynote-loop"
-},
+  "description": "keynote-loop",
 "engines": {
     "node": "4.x.x"
   }
+}
